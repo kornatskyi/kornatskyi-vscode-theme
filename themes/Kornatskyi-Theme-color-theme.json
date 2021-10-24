@@ -90,7 +90,11 @@
     },
     {
       "name": "Pink",
-      "scope": ["markup.heading", "variable.language.this.js"],
+      "scope": [
+        "markup.heading",
+        "variable.language.this.js",
+        "variable.language.this.ts"
+      ],
       "settings": {
         "foreground": "#ff00aa"
       }
@@ -130,7 +134,8 @@
       "scope": [
         "string.regexp",
         "markup.changed",
-        "variable.parameter.function.language.python"
+        "variable.parameter.function.language.python",
+        "variable.parameter.ts"
       ],
       "settings": {
         "foreground": "#7cb7ff"
