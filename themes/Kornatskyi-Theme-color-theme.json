@@ -1,6 +1,7 @@
 {
   "name": "Kornatskyi-Theme",
   "type": "dark",
+
   "tokenColors": [
     {
       "name": "Comment color",
@@ -81,8 +82,7 @@
         "source.css entity.name.tag.reference",
         "beginning.punctuation.definition.list.markdown",
         "source.css entity.other.attribute-name.parent-selector",
-        "meta.structure.dictionary.json support.type.property-name",
-        "source.python"
+        "meta.structure.dictionary.json support.type.property-name"
       ],
       "settings": {
         "foreground": "#00e8c6"
@@ -93,7 +93,8 @@
       "scope": [
         "markup.heading",
         "variable.language.this.js",
-        "variable.language.this.ts"
+        "variable.language.this.ts",
+        "variable.language"
       ],
       "settings": {
         "foreground": "#ff00aa"
